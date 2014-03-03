@@ -1,0 +1,6 @@
+---
+layout: post
+title: Picinas y zonas de recreacion
+image: /img/picina.jpeg
+---
+Tenemos las mejores picinas y zonas de recreacion.
