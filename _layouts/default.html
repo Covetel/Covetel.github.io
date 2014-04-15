@@ -19,7 +19,7 @@
                         </div>
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="/">Home</a></li>
+                                <li class=""><a href="/">Home</a></li>
                                 <li><a href="/portafolio/">Portfolio</a></li>
                                 <li><a href="/about">About</a></li>
                                 <li><a href="/contact">Contact</a></li> 
@@ -93,8 +93,9 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    {{ content }}
-   {% include footer.html %}
+    <div class="container marketing">
+        {{ content }}
+        {% include footer.html %}
+    </div>
   </body>
 </html>
