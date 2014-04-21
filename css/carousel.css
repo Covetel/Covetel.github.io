@@ -49,17 +49,20 @@ a {
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
    color: #000;
-   background-color:;
+   background-color:#eee;
  }
+
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-   color: #A9A9A9;
-   background-color: transparent;
+   color: #eee;
+   background-color: #000;
 }
 
 
-
+.navbar-inverse .navbar-brand > a > img{
+    margin-bottom:20px
+ }
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
