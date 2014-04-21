@@ -34,7 +34,7 @@ a {
 .navbar-wrapper .navbar {
   padding-right: 15px;
   padding-left: 15px;
-  background-color: #A0A0A0;;
+  background-color: #FFFFFF;
   border-color: #8d2300;
 }
 
@@ -42,13 +42,23 @@ a {
     color: #000000;
 }
 
-.navbar-nav {
-    color:#000000
-}
-
-.nav .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > li > a {
     color: #000000;
 }
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+   color: #000;
+   background-color:;
+ }
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+   color: #A9A9A9;
+   background-color: transparent;
+}
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
