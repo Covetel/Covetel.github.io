@@ -28,6 +28,7 @@ a {
 .navbar-wrapper .container {
   padding-right: 0;
   padding-left: 0;
+  padding-bottom:14px;
 }
 
 
@@ -35,12 +36,16 @@ a {
   padding-right: 15px;
   padding-left: 15px;
   background-color: #FFFFFF;
-  border-color: #8d2300;
 }
 
 .navbar-inverse .navbar-brand {
     color: #000000;
 }
+
+.navbar-inverse {
+    border-color: #FFF;
+}
+
 
 .navbar-inverse .navbar-nav > li > a {
     color: #000000;
@@ -56,6 +61,7 @@ a {
 .navbar-inverse .navbar-nav > li > a:focus {
    color: #000;
    background-color: #eee;
+   padding-bottom: 15px;
 }
 
 .navbar-brand {
