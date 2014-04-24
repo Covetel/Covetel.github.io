@@ -6,15 +6,18 @@ title: Productos
 
 <h2>Soluciones Listas para Llevar</h2>
 
-<ul>
-  {% for post in site.categories.productos  %}
- 
-  <li>
-    <a href="{{ post.url }}">
-		<img src="{{ post.image }}" />
-		<h3>{{ post.title }}</h3>
-    </a>
-  </li>
- 
-  {% endfor %}
-</ul>
+{% for post in site.categories.productos  %}
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading"></h2>
+        <p class="lead"><h3>{{ post.title }}</h3></p>
+        <p><a class="btn btn-default" href="{{ post.url }}" role="button">Ver mas</a></p>
+    </div>
+
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+    
+</div>
+{% endfor %}
