@@ -4,7 +4,6 @@ title: Seguimiento y control de incidentes
 categories : productos
 image: /img/request_tracker.png
 ---
-Request Tracker
 
 Request Tracker es un sistema para la gestión de casos de grado empresarial que permite que un grupo de gente inteligente y eficiente gestione tareas, problemas y solicitudes presentadas por una comunidad de usuarios. La plataforma de Request Tracker ha estado en desarrollo desde 1996, y es utilizado por los administradores de sistemas, personal de atención al cliente, los administradores de TI, desarrolladores y departamentos de marketing en miles de sitios alrededor del mundo.
 
