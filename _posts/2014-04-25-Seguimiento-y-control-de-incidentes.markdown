@@ -54,19 +54,45 @@ Si usted tiene personal en todo el mundo. RT la interfaz web ha sido totalmente 
 
 ###Fácil de personalizar
 
-RT está escrito en Perl orientado a objetos. No sólo puede obtener el código fuente completo de este producto con cada descarga, sino que también su personal puede comenzar la personalización de RT para satisfacer sus necesidades en cuestión de horas. RT cuenta con una interfaz web y de correo sobre una API que permite que su organización escriba sus propias herramientas. La interfaz esta documentada y existen numerosas herramientas de terceros para utilizar como ejemplos y plantillas. Cada organización necesita un sistema para realizar seguimiento de datos especializados. RT permite definir la lista de base libre y campos personalizados para ayudar a realizar el seguimiento de sus entradas. Una vez que crea los campos personalizados, es fácil buscar en ellos, al igual que los campos predefinidos por RT. Todas las reglas de correo de RT se basan en torno a un potente sistema de lógica de negocio personalizado llamado "scripts". Scripts es fácil para un administrador local cuando un ticket es creado o actualizado. Toda la interfaz web se basa en un sistema de plantillas flexibles que le permite construir sus propios instrumentos basados en la Web o alterar el aspecto de RT, mejorando y ajustandolo según las necesidades de su organización. Si usted no quiere cambiar radicalmente la interfaz de RT, puede agregar sus propios componentes de las páginas de RT. Si necesita más poder, los "Código overlays", permiten personalizar el comportamiento interno de RT sin tocar el núcleo de bibliotecas RT.
+RT está escrito en Perl orientado a objetos. No sólo puede obtener el código fuente completo de este producto con cada descarga, sino que también su personal puede comenzar la personalización de RT para satisfacer sus necesidades en cuestión de horas.
+
+RT cuenta con una interfaz web y de correo sobre una API que permite que su organización escriba sus propias herramientas. La interfaz esta documentada y existen numerosas herramientas de terceros para utilizar como ejemplos y plantillas.
+
+Cada organización necesita un sistema para realizar seguimiento de datos especializados. RT permite definir la lista de base libre y campos personalizados para ayudar a realizar el seguimiento de sus entradas. Una vez que crea los campos personalizados, es fácil buscar en ellos, al igual que los campos predefinidos por RT. 
+
+Todas las reglas de correo de RT se basan en torno a un potente sistema de lógica de negocio personalizado llamado "scripts". Scripts es fácil para un administrador local cuando un ticket es creado o actualizado. 
+
+Toda la interfaz web se basa en un sistema de plantillas flexibles que le permite construir sus propios instrumentos basados en la Web o alterar el aspecto de RT, mejorando y ajustandolo según las necesidades de su organización. 
+
+Si usted no quiere cambiar radicalmente la interfaz de RT, puede agregar sus propios componentes de las páginas de RT. 
+
+Si necesita más poder, los "Código overlays", permiten personalizar el comportamiento interno de RT sin tocar el núcleo de bibliotecas RT.
 
 ###Seguridad
 
-RT ha incorporado un sistema de control de acceso que permite a los administradores la concesión de permisos a los usuario, grupo y roles de los usuarios. Los usuarios pueden ser miembros de los grupos a los efectos de control de acceso. Estos grupos son jerárquicos, lo que facilita a los administradores gestionar el acceso al sistema. Se puede conceder derechos a nivel global o sólo a determinadas partes de su sistema RT. Los usuarios se les permite el derecho a delegar derechos que se les ha concedido. RT puede utilizar su sistema de autenticación o la contraseña de su propia base de datos interna para conceder o negar el acceso de los usuarios el acceso a RT.
+RT ha incorporado un sistema de control de acceso que permite a los administradores la concesión de permisos a los usuario, grupo y roles de los usuarios. 
+
+Los usuarios pueden ser miembros de los grupos a los efectos de control de acceso. Estos grupos son jerárquicos, lo que facilita a los administradores gestionar el acceso al sistema. 
+
+Se puede conceder derechos a nivel global o sólo a determinadas partes de su sistema RT. 
+
+Los usuarios se les permite el derecho a delegar derechos que se les ha concedido. 
+
+RT puede utilizar su sistema de autenticación o la contraseña de su propia base de datos interna para conceder o negar el acceso de los usuarios el acceso a RT.
 
 ###Fácil de instalar
 
-A diferencia de costosos sistemas de seguimiento de problemas propietario, un administrador puede tener un sistema básico con RT funcionando y en marcha tan solo en una tarde No existe un software cliente para manejar o mantener al día RT. Su navegador de Internet y los clientes de correo electrónico son todo lo que necesita.
+A diferencia de costosos sistemas de seguimiento de problemas propietario, un administrador puede tener un sistema básico con RT funcionando y en marcha tan solo en una tarde.
+
+No existe un software cliente para manejar o mantener al día RT. Su navegador de Internet y los clientes de correo electrónico son todo lo que necesita.
 
 ###Plataforma Independiente
 
-RT corre en plataformas Linux, FreeBSD, Solaris, Mac OS X y la mayoría de los otros sabores de Unix. RT almacena todos sus datos dentro de una base de datos SQL, de modo que puede utilizar Crystal Reports y herramientas similares para generar informes precisos. RT funciona bien en varios motores de bases de datos populares. Puede implementar MySQL, PostgreSQL u Oracle. RT utiliza Apache mod_perl intérprete del protocolo FastCGI, así que puede obtener un rendimiento rápido, no importa qué servidor web usted elija.
+RT corre en plataformas Linux, FreeBSD, Solaris, Mac OS X y la mayoría de los otros sabores de Unix. 
+
+RT almacena todos sus datos dentro de una base de datos SQL, de modo que puede utilizar Crystal Reports y herramientas similares para generar informes precisos. RT funciona bien en varios motores de bases de datos populares. Puede implementar MySQL, PostgreSQL u Oracle. 
+
+RT utiliza Apache mod_perl intérprete del protocolo FastCGI, así que puede obtener un rendimiento rápido, no importa qué servidor web usted elija.
 
 ###Disponibilidad
 
