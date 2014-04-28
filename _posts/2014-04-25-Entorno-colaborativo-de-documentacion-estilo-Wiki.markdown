@@ -4,6 +4,7 @@
  categories : productos
  image:
 ---
+##MoinMoin
 
 El MoinMoin es un software wiki similar a MediaWiki (usado por Wikipedia), pero con algunas diferencias. Tiene un control más fino de permisos, corre en Python, y no está hecho para wikis tan grandes como la Wikipedia. Programa distribuido bajo los términos de la GNU General Public License, MoinMoin es un programa libre.
 
@@ -11,7 +12,7 @@ Una característica interesante es que tiene una versión simple que corre en cu
 
 Características de MoinMoin
 
-Marcado
+##Marcado
 
 Encabezados (de 1 a 5, con o sin númeración)
 Tipo y Estilo de Tipografía: negrita, máquina de escribir, cursiva, subrayado, superíndice, subíndice, tachado.
@@ -36,7 +37,7 @@ Gran número de emoticonos e iconos
 Comentarios en línea que pueden activarse
 Advertencias
 
-Características del Wiki Base
+##Características del Wiki Base
 
 Crea copias de seguridad de todas las revisiones de la página: El historial de revisiones sólo muestra los últimos 100, todos son accesibles mediante la edición de la URL.
 Lista de revisión de la página
@@ -52,7 +53,7 @@ Puede configurar la edición de bloqueo y advertencia para evitar conflictos de 
 Almacenamiento simple de página (moin simplemente almacena exactamente lo que ve en el editor, en un directorio que se denomina como la página)
 Puede: copiar, borrar, cambiar el nombre de las páginas incluyendo opcionalmente las subpáginas
 
-Navegación
+##Navegación
 
 Sistema de Indexación
 Índice de títulos
@@ -66,7 +67,7 @@ La función de búsqueda mejorada: título o búsqueda de texto completo, varios
 Poderosa búsqueda Xapian basada en índexados, incluyendo los archivos adjuntos y las revisiones anteriores
 Los resultados de la búsqueda pueden ser incluidos en las páginas wiki a través de macros
 
-Funciones Avanzadas
+##Funciones Avanzadas
 
 Interfaz gráfica de usuario (WYSIWYG) y editor de texto (marcado) (Tenga en cuenta que aunque la mayoría de los navegadores son compatibles con el editor de interfaz gráfica de usuario, Safari en la actualidad no lo soporta).
 Gran número de macros
