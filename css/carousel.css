@@ -4,13 +4,17 @@
 
 body {
   padding-bottom: 40px;
-  color: #5a5a5a;
+  color: #000;
 }
 
 
 a { 
   color: #000000;
  }
+
+.center { 
+    text-align:center; 
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
