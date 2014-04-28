@@ -8,9 +8,9 @@ image:
 
 ##Request Tracker 
 
-Es un sistema para la gestión de casos de grado empresarial que permite que un grupo de gente inteligente y eficiente gestione tareas, problemas y solicitudes presentadas por una comunidad de usuarios. La plataforma de Request Tracker ha estado en desarrollo desde 1996, y es utilizado por los administradores de sistemas, personal de atención al cliente, los administradores de TI, desarrolladores y departamentos de marketing en miles de sitios alrededor del mundo.
+Es un sistema para la gestión de casos de grado empresarial que permite que un grupo de gente inteligente y eficiente gestione tareas, problemas ysolicitudes presentadas por una comunidad de usuarios. La plataforma de Request Tracker ha estado en desarrollo desde 1996, y es utilizado por losadministradores de sistemas, personal de atención al cliente, los administradores de TI, desarrolladores y departamentos de marketing en miles de sitios alrededor del mundo.
 
-Escrito en Perl totalmente orientado a objetos, RT es un sistema de gestón de casos de alto nivel, portáble, independiente de la plataforma lo que facilita la colaboración dentro de las organizaciones y hace que sea fácil para ellos atender a las necesidades de sus clientes.
+Escrito en Perl totalmente orientado a objetos, RT es un sistema de gestón de casos de alto nivel, portáble, independiente de la plataforma lo quefacilita la colaboración dentro de las organizaciones y hace que sea fácil para ellos atender a las necesidades de sus clientes.
 
 RT gestiona las tareas clave, tales como la identificación, priorización, asignación, resolución y notificación requerida por la empresa, incluyendo las aplicaciones críticas de gestión de proyectos, help desk, NOC, CRM y desarrollo de software.
 
