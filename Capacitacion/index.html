@@ -1,10 +1,27 @@
 ---
 layout: default
+categories : capacitacion
 title: Capacitación
---- 
-<section class="content">
-	<h2>Capacitación</h2>
-</section>
+---
+  
+<h2>Brindamos Nuestro Conocimiento a Servicio del Cliente</h2>
+               
+{% for post in site.categories.capacitacion %}
+<hr class="featurette-divider">
 
-<section>
-</section>
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading"></h2>
+        <p class="lead"><h3>{{ post.title }}</h3></p>
+        <p><a class="btn btn-default" href="{{ post.url }}" role="button">Leer</a></p>
+    </div>
+
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>
+</div>
+{% endfor %}
+
+<hr class="featurette-divider">
+                                 
+
