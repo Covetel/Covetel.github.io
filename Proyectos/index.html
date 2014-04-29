@@ -1,5 +1,20 @@
 ---
 layout: default
 title: Proyectos
+categories: proyectos
 ---
-       
+   
+<h2>Desarrollados por Nuestros Expertos</h2>
+
+{% for post in site.categories.proyectos %}
+<hr class="featurette-divider">
+<div class="row featurette">
+    <p> {{ post.content }}</p>
+    
+    <!--<div class="col-md-5">
+        <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+    </div>-->
+</div>
+{% endfor %}
+<hr class="featurette-divider">
+
