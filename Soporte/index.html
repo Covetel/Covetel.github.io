@@ -1,28 +1,22 @@
 ---
 layout: default
-title: El Soporte
 categories : soporte
 ---   
     
 <h2>Siempre de la Mano con Nuestros Clientes</h2>
+
+{% for post in site.categories.soporte %}
 <hr class="featurette-divider">
 <div class="row featurette">
     <div class="col-md-7">
-        <h2 class="featurette-heading"> El Soporte </h2>
-        <p>Comienza al crear un requerimiento en nuestro sistema de gestión de casos, es tan simple como enviar un correo a una cuenta especifica, creada especialmente para llevar el control de los casos y requerimientos de su organización. Los correos que envié serán convertidos automáticamente en casos por atender, e insertados en una cola de prioridad creada especialmente para usted, recibirá un correo en repuesta a su requerimiento, en el que se le indicara el número asignado a su caso y una serie de instrucciones para poder realizar un seguimiento efectivo. 
-
-        Puede realizar seguimiento a un caso especifico, a través de la interfaz web en http://rt.covetel.com.ve o a través de correo electrónico, enviando un correo y colocando en el asunto, el número del caso que le fue asignado. Una vez resuelto el caso, un correo de confirmación sera enviado a su cuenta, con la información suministrada acerca de su requerimiento.</p>
-
-       <h2 class="featurette-heading"> La Transferencia Tecnológica </h2>
-       <p>La transferencia tecnológica a nuestros clientes es uno de nuestros principios fundamentales, se lleva a cabo a través de la documentación que constantemente nuestro equipo desarrolla sobre nuestra base de conocimiento que es alimentada por cada uno de los casos resueltos. Nuestro equipo, constantemente esta trabajando sobre la documentación que mantenemos actualizada en nuestra WiKi, a la cual podrá acceder libremente a través de la dirección: https://wiki.covetel.com.ve/</p>
+        <p> {{ post.content }}</p>
     </div>
-          
     <div class="col-md-5">
         <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
     </div>
 </div>
-
+{% endfor %}
 <hr class="featurette-divider">
-                  
+                
 
   
