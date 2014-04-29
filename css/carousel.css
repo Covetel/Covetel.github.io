@@ -66,6 +66,13 @@ a {
 }
 
 
+.btn-default {
+    color: #000;
+    background-color: #AB0000;
+    border-color: #ccc;
+}
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
