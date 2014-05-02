@@ -14,159 +14,159 @@ Características de MoinMoin
 
 ##Marcado
 
-Encabezados (de 1 a 5, con o sin númeración).
+* Encabezados (de 1 a 5, con o sin númeración).
 
-Tipo y Estilo de Tipografía: negrita, máquina de escribir, cursiva, subrayado, superíndice, subíndice, tachado.
+* Tipo y Estilo de Tipografía: negrita, máquina de escribir, cursiva, subrayado, superíndice, subíndice, tachado.
 
-Enlaces:
+* Enlaces:
 
-    Internos: los dos enlaces CamelCase y libre.
+    * Internos: los dos enlaces CamelCase y libre.
 
-    Externo: Enlaces Interwiki, URLs sencillas, enlaces con la descripción.
+    * Externo: Enlaces Interwiki, URLs sencillas, enlaces con la descripción.
 
-    Cadena de consulta de Argumentos.
+    * Cadena de consulta de Argumentos.
 
-    Etiquetas de los atributos.
+    * Etiquetas de los atributos.
 
-Inclusión (también conocido como incrustación):
+* Inclusión (también conocido como incrustación):
 
-    Imágenes.
+    * Imágenes.
 
-    Otros mimetypes (con etiqueta de objeto).
+    * Otros mimetypes (con etiqueta de objeto).
 
-Reglas horizontales (diferentes anchos).
+* Reglas horizontales (diferentes anchos).
 
-Tablas (con algunos atributos de tabla).
+* Tablas (con algunos atributos de tabla).
 
-Texto preformateado/parsers.
+* Texto preformateado/parsers.
 
-Plano.
+* Plano.
 
-Código coloreado, con o sin números de línea (Python y misceláneos. otros idiomas).
+* Código coloreado, con o sin números de línea (Python y misceláneos. otros idiomas).
 
-HTML seguro
+* HTML seguro
 
-Listas:
+* Listas:
 
-    Viñetas.
+    * Viñetas.
 
-    Numeradas (automáticamente en decimal, alfa, romano).
+    * Numeradas (automáticamente en decimal, alfa, romano).
 
-    Gran número de emoticonos e iconos.
+    * Gran número de emoticonos e iconos.
 
-    Comentarios en línea que pueden activarse.
+    * Comentarios en línea que pueden activarse.
 
-    Advertencias
+    * Advertencias
 
 ##Características del Wiki Base
 
-Crea copias de seguridad de todas las revisiones de la página: El historial de revisiones sólo muestra los últimos 100, todos son accesibles mediante la edición de la URL.
+* Crea copias de seguridad de todas las revisiones de la página: El historial de revisiones sólo muestra los últimos 100, todos son accesibles mediante la edición de la URL.
 
-Lista de revisión de la página.
+* Lista de revisión de la página.
 
-Diferenciaciones arbitrarias entre las versiones de la página.
+* Diferenciaciones arbitrarias entre las versiones de la página.
 
-Cambios Recientes: enlaces a diffs, información de la página y la página de inicio del usuario del editor.
+* Cambios Recientes: enlaces a diffs, información de la página y la página de inicio del usuario del editor.
 
-Subpáginas: Suplementación de Páginas.
+* Subpáginas: Suplementación de Páginas.
 
-Soporte para Internacionalización I18N (Multi-idioma).
+* Soporte para Internacionalización I18N (Multi-idioma).
 
-Soporte Estándar Unicode de codificación UTF-8.
+* Soporte Estándar Unicode de codificación UTF-8.
 
-Gran cantidad de páginas de ayuda.
+* Gran cantidad de páginas de ayuda.
 
-Soporte RSS para los cambios Recintes.
+* Soporte RSS para los cambios Recintes.
 
-Plantillas de páginas Wiki.
+* Plantillas de páginas Wiki.
 
-Puede configurar la edición de bloqueo y advertencia para evitar conflictos de edición.
+* Puede configurar la edición de bloqueo y advertencia para evitar conflictos de edición.
 
-Almacenamiento simple de página (moin simplemente almacena exactamente lo que ve en el editor, en un directorio que se denomina como la página).
+* Almacenamiento simple de página (moin simplemente almacena exactamente lo que ve en el editor, en un directorio que se denomina como la página).
 
-Puede: copiar, borrar, cambiar el nombre de las páginas incluyendo opcionalmente las subpáginas.
+* Puede: copiar, borrar, cambiar el nombre de las páginas incluyendo opcionalmente las subpáginas.
 
 
 ##Navegación
 
-Sistema de Indexación:
+* Sistema de Indexación:
 
-    Índice de títulos.
+    * Índice de títulos.
 
-    Índice de Palabras.
+    * Índice de Palabras.
 
-    Búsqueda Páginas.
+    * Búsqueda Páginas.
 
-    Páginas Huérfanas.
+    * Páginas Huérfanas.
 
-    Páginas Abandonadas.
+    * Páginas Abandonadas.
 
-    Categorías.
+    * Categorías.
 
-Enlaces de vuelta, haciendo clic en título de la página.
+* Enlaces de vuelta, haciendo clic en título de la página.
 
-La función de búsqueda mejorada: título o búsqueda de texto completo, varios términos de búsqueda, expresiones booleanas.
+* La función de búsqueda mejorada: título o búsqueda de texto completo, varios términos de búsqueda, expresiones booleanas.
 
-Poderosa búsqueda Xapian basada en índexados, incluyendo los archivos adjuntos y las revisiones anteriores.
+* Poderosa búsqueda Xapian basada en índexados, incluyendo los archivos adjuntos y las revisiones anteriores.
 
-Los resultados de la búsqueda pueden ser incluidos en las páginas wiki a través de macros
+* Los resultados de la búsqueda pueden ser incluidos en las páginas wiki a través de macros
 
 ##Funciones Avanzadas
 
-Interfaz gráfica de usuario (WYSIWYG) y editor de texto (marcado) (Tenga en cuenta que aunque la mayoría de los navegadores son compatibles con el editor de interfaz gráfica de usuario, Safari en la actualidad no lo soporta).
+* Interfaz gráfica de usuario (WYSIWYG) y editor de texto (marcado) (Tenga en cuenta que aunque la mayoría de los navegadores son compatibles con el editor de interfaz gráfica de usuario, Safari en la actualidad no lo soporta).
 
-Gran número de macros.
+* Gran número de macros.
 
-Archivos Adjuntos.
+* Archivos Adjuntos.
 
-Notificación por correo electrónico y Jabber, con diferencias incluidas y seleccionables por el usuario de la notificación de cambios triviales.
+* Notificación por correo electrónico y Jabber, con diferencias incluidas y seleccionables por el usuario de la notificación de cambios triviales.
 
-Importar correo electrónico - usted puede escribir e-mail a sus páginas wiki.
+* Importar correo electrónico - usted puede escribir e-mail a sus páginas wiki.
 
-Se puede mantener el contenido de la Wiki sincronizado.
+* Se puede mantener el contenido de la Wiki sincronizado.
 
-Tematización.
+* Tematización.
 
-Posee directorios para almacenar páginas de solo lectura.
+* Posee directorios para almacenar páginas de solo lectura.
 
-Las listas de control de acceso.
+* Las listas de control de acceso.
 
-Diferentes métodos de autenticación posibles.
+* Diferentes métodos de autenticación posibles.
     
-Se puede volver a usar la autenticación realizada por el servidor web.
+* Se puede volver a usar la autenticación realizada por el servidor web.
 
-La autenticación modular facilita el apoyo de un solo inicio de sesión.
+* La autenticación modular facilita el apoyo de un solo inicio de sesión.
 
-Conectores de parsers que permiten el apoyo de formatos de entrada diferentes:
+* Conectores de parsers que permiten el apoyo de formatos de entrada diferentes:
 
-    ReStructuredText
+    * ReStructuredText
 
-    DocBook
+    * DocBook
 
-    Creole
+    * Creole
 
-    HTML Seguro
+    * HTML Seguro
 
-    Resaltado de sintaxis para python y misceláneos, otros idiomas
+    * Resaltado de sintaxis para python y misceláneos, otros idiomas
 
-    diff y CSV
+    * diff y CSV
 
-    XML (con XSLT)
+    * XML (con XSLT)
 
-Formateadores compatibles con duferentes formatos de salida:
+* Formateadores compatibles con duferentes formatos de salida:
 
-    HTML.
+    * HTML.
 
-    Plain text.
+    * Plain text.
 
-    Dockbook (significa que puede generar docbook de código wiki).
+    * Dockbook (significa que puede generar docbook de código wiki).
 
-    XML.
+    * XML.
         
-    Algunas AntiSpamFeatures y TextChas.
+    *  Algunas AntiSpamFeatures y TextChas.
 
-    Presentaciones.
+    * Presentaciones.
 
-    Twiki draw con acceso para dibujar.
+    * Twiki draw con acceso para dibujar.
 
 
