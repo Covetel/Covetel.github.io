@@ -13,58 +13,59 @@ pfSense es una solución informática de código abierto, basado en FreeBSD, el 
 
 ###Firewall
 
-Filtrado por dirección IP origen y destino, por origen y destino de protocolos.
+* Filtrado por dirección IP origen y destino, por origen y destino de protocolos.
 
-Capaz de limitar las conexiones simultáneas por regla.
+* Capaz de limitar las conexiones simultáneas por regla.
 
-Utiliza p0f, un avanzado sistema de detección de sistemas Operativos basados en el fingerprinting OS.
+* Utiliza p0f, un avanzado sistema de detección de sistemas Operativos basados en el fingerprinting OS.
 
-Habilitar el log para el tráfico que concuerda con una regla del firewall.
+* Habilitar el log para el tráfico que concuerda con una regla del firewall.
 
-Ruteo flexible para elegir a una puerta de enlace (Gateway) función del estado de una regla (por balanceo de carga, failover, múltiples rutas WAN etc.)
+* Ruteo flexible para elegir a una puerta de enlace (Gateway) función del estado de una regla (por balanceo de carga, failover, múltiples rutas WAN etc.)
 
-Alias que permiten agrupar y nombrar IPs, Redes, y puertos. Esto ayuda a mantener su conjunto de reglas de cortafuegos limpio y fácil de entender,especialmente en entornos con múltiples IPs públicas y varios servidores.
+* Alias que permiten agrupar y nombrar IPs, Redes, y puertos. Esto ayuda a mantener su conjunto de reglas de cortafuegos limpio y fácil de entender,especialmente en entornos con múltiples IPs públicas y varios servidores.
 
-Capaz de filtrar en capa 2.
+* Capaz de filtrar en capa 2.
 
-Normalización de paquetes el cual protege a sistemas operativos que no manejan bien la fragmentación de paquetes.
+* Normalización de paquetes el cual protege a sistemas operativos que no manejan bien la fragmentación de paquetes.
 
-Deshabilitar el filtrado para fungir únicamente como Router.
+* Deshabilitar el filtrado para fungir únicamente como Router.
 
 ##Balanceo de Carga
 
-Balanceo de carga entrante: Es usado para la distribución de carga entre múltiples servidores. Esta característica es comúnmente usada en servidores web, de correo DNS y otros. De esta forma se puede hacer un clúster para conseguir una alta disponibilidad y/o un gran rendimiento.
+* Balanceo de carga entrante: Es usado para la distribución de carga entre múltiples servidores. Esta característica es comúnmente usada en servidores web, de correo DNS y otros. De esta forma se puede hacer un clúster para conseguir una alta disponibilidad y/o un gran rendimiento.
 
-Balanceo de cargas saliente: Se usa para enviar el tráfico por distintos enlaces WAN para proveer calidad de servicio o redundancia. El trafico pude se distribuido a nivel de regla de firewall.
+* Balanceo de cargas saliente: Se usa para enviar el tráfico por distintos enlaces WAN para proveer calidad de servicio o redundancia. El trafico pude se distribuido a nivel de regla de firewall.
 
 ##Portal Cautivo
 
-Limitar el número de conexiones concurrentes de una misma IP, para evitar denegación de servicio por clientes que envían tráfico repetidamente sinautenticación.
+* Limitar el número de conexiones concurrentes de una misma IP, para evitar denegación de servicio por clientes que envían tráfico repetidamente sinautenticación.
 
-Desconexion de a usuarios que se mantienen inactivos por un número de minutos predefinidos.
+* Desconexion de a usuarios que se mantienen inactivos por un número de minutos predefinidos.
 
-Redirección de URL, para llevar a los usuarios a una página predefinida antes, durante y después de la autenticación.
-Filtrado de MACs.
+* Redirección de URL, para llevar a los usuarios a una página predefinida antes, durante y después de la autenticación.
 
-Múltiples métodos de autenticación, usuarios locales, Radius, y Microsoft Active Directory.
+* Filtrado de MACs.
 
-El portal soporta ambos protocolos HTTP o HTTPS.
+* Múltiples métodos de autenticación, usuarios locales, Radius, y Microsoft Active Directory.
 
-Página web personalizable.
+* El portal soporta ambos protocolos HTTP o HTTPS.
+
+* Página web personalizable.
 
 ##Redundancia
 
 Por el protocolo de redundancia de dirección común (Common Address Redundancy Protocol) CARP, el cual permite que múltiples host en una red compartan un dirección comun. Así dos o más firewalls pueden ser configurados como un grupo de conmutación por error (failover group). Si una de las interfaces falla en el firewall primario o por alguna razón deja de reponder, el firewall secundario toma el control de las operaciones y se declara como primario. pfSense también sincroniza la configuración hacha en el firewall primario a todos los miembros del grupo.
 
-Pfsync: asegura que la tabla de estado sea replicado a todos los firewall dentro del grupo de conmutación por error, el cual es importante para prevenir las interrupciones de servicios.
+* Pfsync: asegura que la tabla de estado sea replicado a todos los firewall dentro del grupo de conmutación por error, el cual es importante para prevenir las interrupciones de servicios.
 
-Balanceo de carga saliente: Distribuye el tráfico hacia varias conexiones WAN.
+* Balanceo de carga saliente: Distribuye el tráfico hacia varias conexiones WAN.
 
-Balanceo de cargas entrante: Distribuye la carga hacia varios servidores. Comúnmente balanceando de tráfico web hacia múltiples servidores web. Siun servidor deja de responder se remueve del pool y automáticamente se agrega si se recupera.
+* Balanceo de cargas entrante: Distribuye la carga hacia varios servidores. Comúnmente balanceando de tráfico web hacia múltiples servidores web. Siun servidor deja de responder se remueve del pool y automáticamente se agrega si se recupera.
 
 ##Reportes y Monitoreo
 
-Graficas Históricas con RDD: Las graficas RDD mantienen un historial con la siguiente información:
+ Graficas Históricas con RDD: Las graficas RDD mantienen un historial con la siguiente información:
 
     Utilizacion de CPU
 
@@ -80,7 +81,7 @@ Graficas Históricas con RDD: Las graficas RDD mantienen un historial con la sig
 
     Manejo de tráfico y ancho de banda
 
-Información de Tiempo Real:
+ Información de Tiempo Real:
 
     Uso de la memoria CPU
 
