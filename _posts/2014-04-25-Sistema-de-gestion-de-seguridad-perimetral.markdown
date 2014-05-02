@@ -65,31 +65,31 @@ Por el protocolo de redundancia de dirección común (Common Address Redundancy 
 
 ##Reportes y Monitoreo
 
- Graficas Históricas con RDD: Las graficas RDD mantienen un historial con la siguiente información:
+ * Graficas Históricas con RDD: Las graficas RDD mantienen un historial con la siguiente información:
 
-    Utilizacion de CPU
+    * Utilizacion de CPU
 
-    Total throughput
+    * Total throughput
 
-    Estado del Firewall
+    * Estado del Firewall
 
-    Throughput individual para todas las interfaces
+    * Throughput individual para todas las interfaces
 
-    Paquetes enviados y recibidos por todas las interfaces
+    * Paquetes enviados y recibidos por todas las interfaces
 
-    Tiempos de respuestas
+    * Tiempos de respuestas
 
-    Manejo de tráfico y ancho de banda
+    * Manejo de tráfico y ancho de banda
 
- Información de Tiempo Real:
+ * Información de Tiempo Real:
 
-    Uso de la memoria CPU
+    * Uso de la memoria CPU
 
-    Memoria
+    * Memoria
 
-    Throughput por medio de gránumeroficas SVG
+    * Throughput por medio de gránumeroficas SVG
 
-    Páginas construidas con AJAX muestran el estado del funcionamiento en tiempo real del estado del firewall.
+    * Páginas construidas con AJAX muestran el estado del funcionamiento en tiempo real del estado del firewall.
 
 
 ##Servidor DHCP
@@ -100,34 +100,36 @@ Tabla de Estado
 
  Tabla de estado ajustable. El tamaño por defecto de la tabla es de 10000 pero se puede incrementar en tiempo de ejecución dependiendo a los requerimientos. Cada estado ocupa 1 KB de RAM, tener en cuenta la memoria disponible a la hora de incrementar el tamaño.
 
-    Límites por regla:
-        Limitar las conexiones simultaneas por cliente
+* Límites por regla:
 
-        Limitar el estado por host
+    * Limitar las conexiones simultaneas por cliente
 
-        Límite de conexiones por segundo.
+    * Limitar el estado por host
+
+    * Límite de conexiones por segundo.
     
-        Definir el tiempo de cada conexión
+    * Definir el tiempo de cada conexión
         
-        Definir el tipo de estado
+    * Definir el tipo de estado
+
         
-    Tipo de Estado:
+* Tipo de Estado:
 
-        Mantener el estado
+    * Mantener el estado
 
-        Módulos de estado para fuertes números de secuencia inicial (ISN).
+    * Módulos de estado para fuertes números de secuencia inicial (ISN).
 
-        Synproxy: Protege de ataques de TCP S
+    * Synproxy: Protege de ataques de TCP S
 
-    Opciones de optimización de estado:
+    * Opciones de optimización de estado:
         
-        Normal – El algoritmo por defecto
+    * Normal – El algoritmo por defecto
 
-        Alta latencia - Útil para enlaces de alta latencia, como las conexiones por satélite. Expira conexiones inactivas después de lo normal.
+    * Alta latencia - Útil para enlaces de alta latencia, como las conexiones por satélite. Expira conexiones inactivas después de lo normal.
 
-        Agresivo - Expira conexiones inactivas más rápidamente. Un uso más eficiente de los recursos de hardware, pero pueden interrumpir las conexiones legítimas.
+    * Agresivo - Expira conexiones inactivas más rápidamente. Un uso más eficiente de los recursos de hardware, pero pueden interrumpir las conexiones legítimas.
         
-        Conservadora - Trata de evitar que se caiga las conexiones legítimas a expensas de aumentar el uso de memoria y la utilización de la CPU.
+    * Conservadora - Trata de evitar que se caiga las conexiones legítimas a expensas de aumentar el uso de memoria y la utilización de la CPU.
 
 ##NAT
 
