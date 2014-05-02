@@ -12,60 +12,60 @@ Zabbix es una solución open source de monitorizacion distribuida de redes y apl
 
 ###Monitorización distribuida
 
-Configuración centralizada
+* Configuración centralizada
 
-Acceso centralizado a toda la información
+* Acceso centralizado a toda la información
 
-Tareas a realizar
+* Tareas a realizar
 
-Hasta 1000 nodos Zabbix
+* Hasta 1000 nodos Zabbix
 
-Número ilimitado de proxies
+* Número ilimitado de proxies
 
 ##Escalabilidad
 
-Probado con 100.000 dispositivos y servidores monitorizados
+* Probado con 100.000 dispositivos y servidores monitorizados
 
-Probado con 1.000.000 chequeos de rendimiento y disponibilidad
+* Probado con 1.000.000 chequeos de rendimiento y disponibilidad
 
-Capacidad de procesar por segundo miles de chequeos de disponibilidad y rendimiento
+* Capacidad de procesar por segundo miles de chequeos de disponibilidad y rendimiento
 
 ##Monitorización en tiempo real
 
-Monitorización de rendimiento
+* Monitorización de rendimiento
 
-Monitorización de disponibilidad
+* Monitorización de disponibilidad
 
-Monitorización de integridad
+* Monitorización de integridad
 
-Condiciones de notificación flexibles
+* Condiciones de notificación flexibles
 
-Alertas a usuarios (Email, SMS, Jabber)
+* Alertas a usuarios (Email, SMS, Jabber)
 
-Registro de logs
+* Registro de logs
 
 ##Monitorización WEB
 
-Monitorización de rendimiento y disponibilidad de la WEB
+* Monitorización de rendimiento y disponibilidad de la WEB
 
-Escenarios flexibles
+* Escenarios flexibles
 
-Soporte para métodos POST y GET
+* Soporte para métodos POST y GET
 
 ##Agentes de alto rendimiento
 
-Soporte para todas las plataformas (UNIX, Windows, Novell)
+* Soporte para todas las plataformas (UNIX, Windows, Novell)
 
-Uso de memoria
+* Uso de memoria
 
-Uso de red
+* Uso de red
 
-Entrada y salida de disco
+* Entrada y salida de disco
 
-Disponibilidad de espacio en disco
+* Disponibilidad de espacio en disco
 
-Checksums de ficheros
+* Checksums de ficheros
 
-Monitorización de ficheros de log
+* Monitorización de ficheros de log
 
 
